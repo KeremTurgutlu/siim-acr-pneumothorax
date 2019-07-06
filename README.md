@@ -1,14 +1,16 @@
 # siim-acr-pneumothorax
 Kaggle competition repo: https://www.kaggle.com/c/siim-acr-pneumothorax-segmentation/
 
+- CX: Chexnet
+- R34: ResNet34
+- RX34: XResNet34
+- SS: Semantic Segmentation
+- IS: Instance Segmentation
 
 # Experiments
 
 |   | Local       | Public LB | Method   | 
 |---|-------------|------------|-----------|
 |   | - |   0.7886    | All -1 |
-|   |   0.8079          |    0.7917        |  R34         |
-|   |    0.8233         |   0.8005         |  R34 + GS         |
-|   |    0.8252         |   0.8045         |  CHX + R34 + GS         |
-|   |    0.8315         |   0.8020         |  CHX + RX34 + GS (0.2)        |
-|   |    0.8345         |   0.8079         |  CHX + RX34 + GS (0.25)        |
+|   |   0.8094          |    0.8108        |  CX R34 CLS + CX RX34 SS (GS - CLS ONLY)      |
+|   |    0.8017         |   0.8110         | CX RX34 CLS + CX RX34 SS (GS - CLS ONLY)         |
