@@ -4,6 +4,7 @@ Kaggle competition repo: https://www.kaggle.com/c/siim-acr-pneumothorax-segmenta
 - CXU: Chexnet U-ignore Pretraining
 - R34: ResNet34
 - RX34: XResNet34
+- POST: Pixel Removal Post Processing
 
 
 # Experiments
