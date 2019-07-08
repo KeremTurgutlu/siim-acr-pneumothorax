@@ -6,7 +6,7 @@ Kaggle competition repo: https://www.kaggle.com/c/siim-acr-pneumothorax-segmenta
 - RX34: XResNet34
 - DN121: DenseNet121
 - POST: Pixel Removal Post Processing
-
+- GS: Grid Search for optimal seg and clas thres
 
 # Experiments
 
@@ -21,3 +21,4 @@ Kaggle competition repo: https://www.kaggle.com/c/siim-acr-pneumothorax-segmenta
 |   |    0.8117         |   0.8202         | TTA_cls_seg - POST - (CXU RX34 RX34) - GS | 224-224 |
 |   |    0.8201         |   0.8161         | TTA_cls_seg - POST - (CXU R34 RX34) - GS | 224-224 |
 |   |    0.8190         |   0.8096         | TTA_cls_seg - POST - (DN121 RX34) - GS | 224-224 |
+|   |    0.8232         |   0.8186         | Average Ensemble Before GS| 224-224 |
