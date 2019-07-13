@@ -22,3 +22,8 @@ Kaggle competition repo: https://www.kaggle.com/c/siim-acr-pneumothorax-segmenta
 |   |    0.8201         |   0.8161         | TTA_cls_seg - POST - (CXU R34 RX34) - GS | 224-224 |
 |   |    0.8190         |   0.8096         | TTA_cls_seg - POST - (DN121 RX34) - GS | 224-224 |
 |   |    0.8232         |   0.8186         | Average Ensemble Before GS| 224-224 |
+
+
+### Updates
+
+- 07/12/2019: Evaluation changed to single mask prediction per image.
