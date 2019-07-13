@@ -8,7 +8,7 @@ Kaggle competition repo: https://www.kaggle.com/c/siim-acr-pneumothorax-segmenta
 - POST: Pixel Removal Post Processing
 - GS: Grid Search for optimal seg and clas thres
 
-# Experiments
+# Experiments (Instance Dice)
 
 |   | Local       | Public LB | Method   | Input Size (CLS - SEG) | 
 |---|-------------|------------|-----------| -----------|
@@ -27,3 +27,9 @@ Kaggle competition repo: https://www.kaggle.com/c/siim-acr-pneumothorax-segmenta
 ### Updates
 
 - 07/12/2019: Evaluation changed to single mask prediction per image.
+
+# Experiments (Semantic Dice)
+
+|   | Local       | Public LB | Method   | Input Size (CLS - SEG) | 
+|---|-------------|------------|-----------| -----------|
+|   |   0.8238          |    0.8226        |  CXU R34 CLS + CXU RX34 + 5 fold MAJ ENS | 224-224   |
