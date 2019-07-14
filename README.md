@@ -33,3 +33,4 @@ Kaggle competition repo: https://www.kaggle.com/c/siim-acr-pneumothorax-segmenta
 |   | Local       | Public LB | Method   | Input Size (CLS - SEG) | 
 |---|-------------|------------|-----------| -----------|
 |   |   0.8238          |    0.8226        |  CXU R34 CLS + CXU RX34 + 5 fold MAJ ENS | 224-224   |
+|   |   0.8400          |    0.8263        |  CXU RX34 CLS + CXU RX34 + 5 fold MAJ ENS | 448-448   |
