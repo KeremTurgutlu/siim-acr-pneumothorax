@@ -1,0 +1,8 @@
+Ideas Journal
+
+- Public and Local scores are not correlated. 
+- Given the small training sample size possible solution can be to use kfold cross validation in segmentation model.
+- Try dice loss with segmentation.
+- Add best model save callback.
+- Increase input size from 224 to 448.
+- Add more data from MIMIC CXR.
